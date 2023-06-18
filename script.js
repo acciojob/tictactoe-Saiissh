@@ -70,3 +70,11 @@ function checkWin() {
 function checkTie() {
   return !boardState.includes('');
 }
+
+
+// var person1 = new Person("John", 30);
+// person1.greet(); // Hello, my name is John, I am 30 years old.
+
+// var employee1 = new Employee("Jane", 25, "Manager");
+// employee1.greet(); // Hello, my name is Jane, I am 25 years old.
+// employee1.jobGreet(); // Hello, my name is Jane, I am 25 years old, and my job title is Manager.
