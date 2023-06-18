@@ -35,7 +35,7 @@ function handleCellClick(cellId) {
   
   if (checkWin()) {
     gameActive = false;
-    document.querySelector('.message').innerText = currentPlayer + ", congratulations, you won!";
+    document.querySelector('.message').innerText = currentPlayer + ", congratulations you won!";
     return;
   }
   
